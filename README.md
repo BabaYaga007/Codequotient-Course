@@ -3,4 +3,4 @@ This repo holds the assignments done for the Codequotient SuperCoders Course, es
 
 First three assignments are made of HTML.
 
-Second assignment demonstrates the use of CSS.
+Fourth assignment demonstrates the use of CSS.
