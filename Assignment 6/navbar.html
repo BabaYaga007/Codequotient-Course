@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navbar</title>
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <style>
+            body {
+                margin: 0;
+            }
+            .navbar {
+                background-color: #066;
+                height: 70px;
+            }
+            .links1 {
+                float: right;
+                margin:25px 0;
+            }
+            .links2 {
+                display: none;
+            } 
+            .logo {
+                margin:10px 10px 10px 30px;
+                height:50px;
+            }
+
+            .links1 a {
+                color:white;
+                text-decoration: none;
+                margin:0 25px;
+            }
+
+            .icon {
+                display:none;
+            }
+
+            @media all and (max-width:700px) {
+                /* .navbar {
+                    background-color: #066;
+                    height: 320px;
+                } */
+                .links1 {
+                    display: none;
+                }
+                .links2 {
+                    display:block;
+                    text-align: center;
+                    margin-top:-5px;
+                }
+                .links2 a {
+                    background-color: #066;
+                    height: 30px;
+                    padding: 10px;
+                    width: 100%;
+                    display: block;
+                    color:white;
+                    text-decoration: none;
+                    margin:0px;
+                    
+                }
+                
+                .icon {
+                    display: block;
+                    float: right;
+                    width: 30px;
+                    margin:20px;
+                }
+                .icon .open {
+                    display: none;
+                }
+                .icon .close {
+                    display:block;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <img class="logo" src="cq.jpg" alt="logo">
+            <div class="links1">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">FAQ</a>
+                <a href="#">FEEDBACK</a> 
+            </div>
+            <div class="icon">
+                <img class="open" src="list.png" alt="HamburgerOpen">
+                <img class="close" src="close.png" alt="HamburgerClose">
+            </div>
+            <div class="links2">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">FAQ</a>
+                <a href="#">FEEDBACK</a> 
+            </div>
+            
+        </div>
+    </body>
+</html>
