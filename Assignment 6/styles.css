@@ -26,21 +26,42 @@ body {
 .icon {
     display:none;
 }
+input {
+    display: none;
+}
 
 @media all and (max-width:700px) {
     /* .navbar {
         background-color: #066;
         height: 320px;
     } */
+    input {
+        display: none;
+        float: right;
+        /* position: relative; */
+
+    }
     .links1 {
         display: none;
     }
-    .links2 {
+    .icon {
+        display: block;
+        float: right;
+        width: 30px;
+        margin:20px;
+    }
+    .icon .open {
+        display: block;
+    }
+    .icon .close {
+        display:none;
+    }
+    #ham:checked ~ .links2 {
         display:block;
         text-align: center;
         margin-top:-5px;
     }
-    .links2 a {
+    #ham:checked ~ .links2 > a {
         background-color: #066;
         height: 30px;
         padding: 10px;
@@ -51,17 +72,11 @@ body {
         margin:0px;
         
     }
+    #ham:checked ~ .icon > .open {
+        display:none;
+    }
     
-    .icon {
-        display: block;
-        float: right;
-        width: 30px;
-        margin:20px;
-    }
-    .icon .open {
-        display: none;
-    }
-    .icon .close {
+    #ham:checked ~ .icon > .close {
         display:block;
     }
 }

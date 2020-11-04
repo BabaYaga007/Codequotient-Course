@@ -1,0 +1,82 @@
+body {
+    /* display: flex; */
+}
+.container {
+    /* display:flex; */
+    /* align-self: center; */
+    /* justify-self: center; works only on grid property */
+    background-color: black;
+}
+.top {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5px;
+}
+.topbox {
+    /* display: flex; */
+    /* align-content:center; */
+    /* height:50px; */
+
+    color:white;
+    width: 150px;
+    border: 1px solid blue;
+
+    text-align: center;
+    padding: 10px 0;
+}
+.middle {
+    display: flex;
+    justify-content: center;
+}
+.mbox {
+    width: 606px;
+    color:white;
+    border: 1px solid purple;
+    text-align: center;
+    padding: 50px 0;
+
+    margin-bottom: 2.5px;
+}
+
+.bottom {
+    display:flex;
+    justify-content: center;
+}
+.bbox2 {
+    margin:2.5px ;
+
+    width:300px;
+    color:white;
+    border: 1px solid purple;
+    text-align: center;
+    padding: 100px 0;
+}
+.box34 {
+    display:flex;
+    justify-content: center;
+}
+.bbox3, .bbox4 {
+    color:white;
+    width: 145px;
+    border: 1px solid purple;
+
+    text-align: center;
+    padding: 50px 0;
+
+    margin:2.5px;
+}
+.box56 {
+    display:flex;
+    justify-content: center;
+}
+.bbox5, .bbox6 {
+    color:white;
+    width: 145px;
+    border: 1px solid purple;
+
+    text-align: center;
+    padding: 50px 0;
+
+    margin: 2.5px;
+}
